@@ -1,64 +1,34 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+[Download my full CV (PDF, October 2026)]({{ '/files/Neethu_Anand_CV_Oct2026.pdf' | relative_url }})
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Research appointment
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**Postdoctoral Research Associate** · November 2021–present<br>
+Ultrafast Dynamics Laboratory, Department of Chemistry, Pohang University of Science and Technology (POSTECH), South Korea.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Education
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+**Ph.D. in Theoretical and Computational Chemistry** · Awarded July 2021<br>
+School of Chemistry, Indian Institute of Science Education and Research Thiruvananthapuram, India. I completed my doctoral research in December 2020 under the supervision of Dr. Vennapusa Sivaranjana Reddy. My thesis was *Nonadiabatic Excited-State Intramolecular Proton Transfer in Hydroxypyrone Analogs*.
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+**BS–MS Dual Degree** · May 2015<br>
+Indian Institute of Science Education and Research Thiruvananthapuram, India. Major in Chemical Science and minor in Physical Science.
+
+## Teaching and mentoring
+
+At POSTECH, I gave the Young Chemist Colloquium lecture (CHEM801A-01) in spring 2023. During my Ph.D., I co-supervised four master’s thesis students and served as a teaching assistant for Atomic Structure and Chemical Bonding, Principles and Applications of Spectroscopy, and the Computational Chemistry Laboratory.
+
+## Selected honors
+
+- **2025** · My first-author paper on internal conversion in BODIPY derivatives was featured on the front cover of *Physical Chemistry Chemical Physics*.
+- **2023** · Young Chemist Colloquium Lectureship Award, POSTECH.
+- **2020** · Best Poster Award, Frontier Symposium in Chemistry, IISER Thiruvananthapuram.
+- **2016–2021** · INSPIRE Fellowship, Department of Science and Technology, India.
