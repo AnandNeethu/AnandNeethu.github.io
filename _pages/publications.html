@@ -13,7 +13,8 @@ author_profile: true
       <article class="archive__item">
         <h3 class="archive__item-title"><a href="https://doi.org/{{ paper.doi }}">{{ paper.title | escape }}</a></h3>
         <p>{{ paper.authors | escape }}<br>
-          <i>{{ paper.journal | escape }}</i> {{ paper.volume }}, {{ paper.pages }}.</p>
+          <i>{{ paper.journal | escape }}</i>{% if paper.preprint_date %} preprint, <time datetime="{{ paper.preprint_date }}">{{ paper.preprint_date | date: "%B %d, %Y" }}</time>{% else %} {{ paper.volume }}, {{ paper.pages }}{% endif %}.
+          {% if paper.pdf %}<a href="{{ paper.pdf | escape }}">PDF</a>{% endif %}</p>
       </article>
     </div>
   {% endfor %}
